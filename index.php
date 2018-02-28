@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Home</title>
@@ -18,33 +13,18 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Climbing Member Management Tool</span>
-								</a>
-
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
-
-						</div>
-					</header>
+				<?php
+					include 'header.php';
+				?>
 
 				<!-- Menu -->
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="userportal.html">User Portal</a></li>
-							<li><a href="usercheckin.html">User Checkin</a></li>
-							<li><a href="staffportal.html">Staff Portal</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="userportal.php">User Portal</a></li>
+							<li><a href="usercheckin.php">User Checkin</a></li>
+							<li><a href="staffportal.php">Staff Portal</a></li>
 						</ul>
 					</nav>
 
@@ -62,7 +42,7 @@
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
-									<a href="userportal.html">
+									<a href="userportal.php">
 										<h2>User Portal</h2>
 										<div class="content">
 											<p>Create a new user, log in to manage user's information.</p>
@@ -73,7 +53,7 @@
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
 									</span>
-									<a href="usercheckin.html">
+									<a href="usercheckin.php">
 										<h2>User Checkin</h2>
 										<div class="content">
 											<p>Verify the user is in the system, check the user's certifications.</p>
@@ -84,7 +64,7 @@
 									<span class="image">
 										<img src="images/pic03.jpg" alt="" />
 									</span>
-									<a href="staffportal.html">
+									<a href="staffportal.php">
 										<h2>Staff Portal</h2>
 										<div class="content">
 											<p>Modify a user's certifications, change a user's membership option.</p>
@@ -96,7 +76,7 @@
 									<span class="image">
 										<img src="images/pic04.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Tempus</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -107,7 +87,7 @@
 									<span class="image">
 										<img src="images/pic05.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Aliquam</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -118,7 +98,7 @@
 									<span class="image">
 										<img src="images/pic06.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Veroeros</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -129,7 +109,7 @@
 									<span class="image">
 										<img src="images/pic07.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Ipsum</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -140,7 +120,7 @@
 									<span class="image">
 										<img src="images/pic08.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Dolor</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -151,7 +131,7 @@
 									<span class="image">
 										<img src="images/pic09.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Nullam</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -162,7 +142,7 @@
 									<span class="image">
 										<img src="images/pic10.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Ultricies</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -173,7 +153,7 @@
 									<span class="image">
 										<img src="images/pic11.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Dictum</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -184,7 +164,7 @@
 									<span class="image">
 										<img src="images/pic12.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="generic.php">
 										<h2>Pretium</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
