@@ -1,3 +1,11 @@
+<?php
+	session_start();
+
+	if (isset($_SESSION['member'])) {
+		session_unset();
+	}
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -24,43 +32,42 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Collect Info</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<form method="post" action="createuser.php">
+							<form method="post" action="addmember.php">
 								<div class="field half first">
-									<input type="text" name="firstname" id="firstname" placeholder="First Name" />
+									<input type="text" name="firstname" id="firstname" placeholder="First Name" required/>
 								</div>
 								<div class="field half">
-									<input type="text" name="lastname" id="lastname" placeholder="Last Name" />
+									<input type="text" name="lastname" id="lastname" placeholder="Last Name" required/>
 								</div>
 								<div class="field">
-									<input type="email" name="email" id="email" placeholder="Email">
+									<input type="email" name="email" id="email" placeholder="Email" required/>
 								</div>
 								<div class="field">
-									Date of Birth<br /><input type="date" name="birthdate" id="birthdate">
+									Date of Birth<br /><input type="date" name="birthdate" id="birthdate" required/>
 								</div>
 								<div class="field">
-									<input type="text" name="address" id="address" placeholder="Address">
+									<input type="text" name="address" id="address" placeholder="Address" required/>
 								</div>
 								<div class="field">
-									<input type="text" name="city" id="city" placeholder="City">
+									<input type="text" name="city" id="city" placeholder="City" required/>
 								</div>
 								<div class="field half first">
-									<input type="text" name="state" id="state" placeholder="State" />
+									<input type="text" name="state" id="state" placeholder="State" required/>
 								</div>
 								<div class="field half">
-									<input type="text" name="zip" id="zip" placeholder="Zip Code" />
+									<input type="text" name="zip" id="zip" placeholder="Zip Code" required/>
 								</div>
 								<div class="field">
-									<input type="text" name="pphone" id="pphone" placeholder="Primary Phone">
+									<input type="text" name="pphone" id="pphone" placeholder="Primary Phone" required/>
 								</div>
 								<div class="field">
 									<input type="text" name="aphone" id="aphone" placeholder="Alternate Phone">
 								</div>
 								<div class="field">
-									<input type="text" name="econtact" id="econtact" placeholder="Emergency Contact">
+									<input type="text" name="econtact" id="econtact" placeholder="Emergency Contact" required/>
 								</div>
 								<div class="field">
-									<input type="text" name="ephone" id="ephone" placeholder="Emergency Phone">
+									<input type="text" name="ephone" id="ephone" placeholder="Emergency Phone" required/>
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Submit" class="special" /></li>

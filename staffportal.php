@@ -1,3 +1,15 @@
+<?php
+	session_start();
+
+	if (isset($_SESSION['member'])) {
+		session_unset();
+	}
+
+	if (!isset($_SESSION['staff_name'])) {
+		header("Location: loginasstaff.php");
+	}
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -40,6 +52,14 @@
 									</span>
 									<a href="#">
 										<h2>Change membership options</h2>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<a href="membersearch.php">
+										<h2>Search for Member</h2>
 									</a>
 								</article>
 							</section>

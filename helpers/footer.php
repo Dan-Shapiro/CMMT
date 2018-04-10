@@ -1,7 +1,9 @@
 <footer id="footer">
 	<div class="inner">
 		<ul class="copyright">
-			<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<li style="font-family:Consolas;">&copy; V0 Climbing Solutions</li>
+			<li>Dan Shapiro</li>
+			<li>ds5ct@virginia.edu</li>
 		</ul>
 	</div>
 </footer>

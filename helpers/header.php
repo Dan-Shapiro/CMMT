@@ -3,7 +3,7 @@
 
 		<!-- Logo -->
 			<a href="index.php" class="logo">
-				<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Climbing Member Management Tool</span>
+				<span class="symbol"><img src="images/logo2.png" alt="" /></span><span class="title" style="font-family:Consolas;font-size: 28pt;">V0 Climbing Solutions</span>
 			</a>
 
 		<!-- Nav -->

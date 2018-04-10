@@ -1,3 +1,11 @@
+<?php
+	session_start();
+
+	if (isset($_SESSION['member'])) {
+		session_unset();
+	}
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -30,10 +38,10 @@
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
-									<a href="userportal.php">
-										<h2>User Portal</h2>
+									<a href="memberportal.php">
+										<h2>Member Portal</h2>
 										<div class="content">
-											<p>Create a new user, log in to manage user's information.</p>
+											<p>Create a new member, log in to manage member's information.</p>
 										</div>
 									</a>
 								</article>
@@ -41,10 +49,10 @@
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
 									</span>
-									<a href="usercheckin.php">
-										<h2>User Checkin</h2>
+									<a href="membercheckin.php">
+										<h2>Member Checkin</h2>
 										<div class="content">
-											<p>Verify the user is in the system, check the user's certifications.</p>
+											<p>Verify the member is in the system, check the member's certifications.</p>
 										</div>
 									</a>
 								</article>
@@ -52,10 +60,10 @@
 									<span class="image">
 										<img src="images/pic03.jpg" alt="" />
 									</span>
-									<a href="staffportal.php">
+									<a href="loginasstaff.php">
 										<h2>Staff Portal</h2>
 										<div class="content">
-											<p>Modify a user's certifications, change a user's membership option.</p>
+											<p>Modify a member's certifications, change a member's membership option.</p>
 										</div>
 									</a>
 								</article>
